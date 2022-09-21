@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="">pavithran's calc</h2>
+
+    <div class="full">
+        <div class="main">
+            <div class="first">
+                <div class="screen" id="screen"><p id="display"></p></div>
+
+                <div class="btn" id="clear" onclick="clr()">C</div>
+            </div>
+            <div class="second">
+                <div class="btn" id="num" onclick="fun(1)">1</div>
+                <div class="btn" id="num" onclick="fun(2)">2</div>
+                <div class="btn" id="num" onclick="fun(3)">3</div>
+                <div class="btn" id="div" onclick="operation('div')">/</div>
+            </div>
+            <div class="third">
+                <div class="btn" id="num" onclick="fun(4)">4</div>
+                <div class="btn" id="num" onclick="fun(5)">5</div>
+                <div class="btn" id="num" onclick="fun(6)">6</div>
+                <div class="btn" id="num" onclick="operation('mul')">x</div>
+            </div>
+            <div class="fourth">
+                <div class="btn" id="num" onclick="fun(7)">7</div>
+                <div class="btn" id="num" onclick="fun(8)">8</div>
+                <div class="btn" id="num" onclick="fun(9)">9</div>
+                <div class="btn" id="sub"onclick="operation('sub')">-</div>
+            </div>
+            <div class="fifth">
+                <div class="btn" id="num" onclick="fun(0)">0</div>
+                <div class="btn" id="pnt" onclick = "operation('dot')">.</div>
+                <div class="btn" id="eql" onclick="op()">=</div>
+                <div class="btn" id="add" onclick="operation('add')">+</div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="home.js" >
+
+</script>
+</html>
